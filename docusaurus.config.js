@@ -16,12 +16,18 @@ const config = {
   url: 'https://lebaron567.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/doc-sink/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lebaron567', // Usually your GitHub org/user name.
-  projectName: 'doc-sink.github.io', // Usually your repo name.
+  projectName: 'doc-sink', // Usually your repo name.
+  deploymentBranch: 'main', // Remplacez 'main' par le nom de votre branche si nécessaire
+  customFields: {
+    gitUser: process.env.GIT_USER,
+    gitToken: process.env.GIT_TOKEN,
+  },
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -71,7 +77,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'documantation',
+            label: 'documentation',
           },
           {
             href: 'https://github.com/ccbikai/Sink/fork',

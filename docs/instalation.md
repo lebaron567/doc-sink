@@ -10,11 +10,11 @@ toc_max_heading_level: 5
 ## **Installation**
 
 1. #### **Créez un fork du référentiel sur votre GitHub**
-   - Rendez-vous sur le repository original et cliquez sur le bouton "[fork](https://dash.cloudflare.com/ "lien github fork")" pour créer une copie dans votre propre compte GitHub.
+   - Rendez-vous sur le repository original et cliquez sur le bouton "[fork] (https://github.com/ccbikai/Sink/fork "lien github fork")" pour créer une copie dans votre propre compte GitHub.
    
 
 2. #### **Configuration sur Cloudflare**
-   - **Accédez à votre [dashboard Cloudflare](https://github.com/ccbikai/Sink/fork "lien github fork")**
+   - **Accédez à votre [dashboard Cloudflare] https://dash.cloudflare.com/( "lien github fork")**
      - Connectez-vous à votre compte Cloudflare.
      - Allez dans la section **Workers**.
      - Cliquez sur **Create a Worker**.
